@@ -6,19 +6,19 @@ const Corrosal = () => {
             <div id="default-carousel" class="relative w-full" data-carousel="slide">
                 <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="/docs/images/carousel/carousel-1.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/> 
+                        <img src="https://m.media-amazon.com/images/I/81rHCjyQoNL._AC_UF1000,1000_QL80_.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/> 
                     </div>
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="/docs/images/carousel/carousel-2.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                        <img src="https://m.media-amazon.com/images/I/81rHCjyQoNL._AC_UF1000,1000_QL80_.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
                     </div>
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="/docs/images/carousel/carousel-3.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                        <img src="https://m.media-amazon.com/images/I/81rHCjyQoNL._AC_UF1000,1000_QL80_.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
                     </div>
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="/docs/images/carousel/carousel-4.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                        <img src="https://m.media-amazon.com/images/I/81rHCjyQoNL._AC_UF1000,1000_QL80_.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
                     </div>
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="/docs/images/carousel/carousel-5.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                        <img src="https://m.media-amazon.com/images/I/81rHCjyQoNL._AC_UF1000,1000_QL80_.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
                     </div>
                 </div>
                 <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
