@@ -1,20 +1,33 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import HeroSection from './components/HeroSection'
-import Corrosal from './components/Corrosal'
-import CategoryFilters from './components/CategoryFilters'
-import Products from './components/Products'
-import products from './components/products-info'
+// App.jsx
+import React, { useState } from 'react';
+import CategoryFilters from './components/CategoryFilters';
+import Products from './components/Products';
+import Testimonial from './components/Testimonial';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import products from './components/products-info';
+
 function App() {
+  const [searchTerm, setSearchTerm] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState('ALL');
+
+  const handleCategorySelect = (category) => {
+    setSelectedCategory(category);
+  };
+
   return (
-    <>
-      <Navbar />
-      <Corrosal />
-      {/* <HeroSection /> */}
-      <CategoryFilters/>
-      <Products products={products}/>
-    </>
-  )
+    <div>
+      <Header setSearchTerm={setSearchTerm} />
+      {!searchTerm && (
+        <>
+          <CategoryFilters onSelectCategory={handleCategorySelect} />
+          <Products products={products} searchTerm={selectedCategory === 'ALL' ? '' : selectedCategory} />
+          <Testimonial />
+          <Footer />
+        </>
+      )}
+    </div>
+  );
 }
 
-export default App
+export default App;
