@@ -106,7 +106,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="relative bg-white shadow  h-auto">
+    <nav className="relative bg-blue-500 shadow  h-auto">
       <div className="container px-1 py-4 mx-auto sm:px-1">
         <div className="flex flex-col md:flex-row md:justify-between md:items-center items-center">
           <div className="flex items-center justify-between">
@@ -114,9 +114,6 @@ const Navbar = () => {
               <a href="/">
                 <img className="w-16 inline-block h-16 sm:w-16 sm:h-16 rounded-full ring-2 ring-white" src= "images/logo.jpg" alt="Logo image" />
               </a>
-              
-
-              {/* Search input on desktop screen */}
 
             </div>
 

@@ -10,7 +10,7 @@ const ProductDetails = ({product}) => {
       <p>{para}</p>
       <p>{detail}</p>
       <p>Price: {price}</p>
-      {/* Add "Buy Now" button that navigates to the order form */}
+
       <button onClick={() => window.location.href = '/order-form'}>Buy Now</button>
     </div>
     </>

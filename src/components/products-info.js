@@ -55,10 +55,9 @@ const products = [
     para: "Sandalwood + Cedarwood and Musk Candle",
     category: "Fall Candles"
   },
-]
-// ].map((product) => ({
-//   ...product,
-//   heading: product.heading(),
-// }));
+].map((product) => ({
+  ...product,
+  heading: product.heading,
+}));
 
 export default products;
